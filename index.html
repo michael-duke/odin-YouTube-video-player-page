@@ -13,24 +13,108 @@
     />
     <link rel="stylesheet" type="text/css" href="styles/general.css" />
     <link rel="stylesheet" type="text/css" href="styles/header.css" />
+    <link rel="stylesheet" type="text/css" href="styles/video-container.css" />
   </head>
 
   <body>
     <div class="header">
-      <div class="left-section">Left</div>
-      <div class="middle-section">Middle</div>
-      <div class="right-section">right-section</div>
+      <div class="left-section">
+        <img src="icons/hamburger-menu.svg" alt="hamburger-menu-icon" />
+        <img src="icons/youtube-logo.svg" alt="YouTube logo" />
+      </div>
+      <div class="middle-section">
+        <input
+          class="search-bar"
+          type="text"
+          placeholder="Search"
+          name=""
+          id=""
+        />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt=""
+          />
+        </button>
+      </div>
+      <div class="right-section">
+        <img class="upload-icon" src="icons/upload.svg" alt="upload-icon" />
+        <img
+          class="youtube-apps-icon"
+          src="icons/youtube-apps.svg"
+          alt="youtube-apps-icon"
+        />
+        <img
+          class="notifications-icon"
+          src="icons/notifications.svg"
+          alt="notifications-icon"
+        />
+        <img
+          class="current-user-picture"
+          src="channel-profile-pics/my-channel.jpeg"
+          alt="my-channel-pic"
+        />
+      </div>
     </div>
-    <div class="youtube-video-iframe">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/rRaGGJWWs0M"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+    <div class="video-section">
+      <div class="youtube-video-iframe-section">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/rRaGGJWWs0M"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="video-tags">
+          <span>
+            <a href="https://www.youtube.com/hashtag/learntocode"
+              >#learntocode</a
+            ></span
+          >
+          <span
+            ><a href="https://www.youtube.com/hashtag/softwaredeveloper"
+              >#softwaredeveloper</a
+            ></span
+          >
+          <span
+            ><a href="https://www.youtube.com/hashtag/softwareengineer"
+              >#softwareengineer</a
+            ></span
+          >
+        </div>
+        <div class="video-desc">
+          <p class="video-title">
+            Software Developer vs Software Engineer - The Difference
+          </p>
+          <p class="description">
+            <span>8,180 views Jan 27, 2021</span>
+            Is the difference between software developers and software
+            engineers? Do software developers and software engineers do
+            different work?
+          </p>
+          <p class="contact-link">
+            Contact:
+            <a
+              href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbTM1MU5pM2ZhSmVuWk1XYzFSQ2VDYmJPOU5vd3xBQ3Jtc0trMzFUTkR2VWhCMndLVVRwdHpYU0I4a2V1Z0k1aGtNTnJwbkNMZjFEa09DTU5lTjB1ZnRFcnlISG55S3BtU1BHLUNLMHQyZmh2WC0wSGp6bGNtaDlmLVN1dXlBQ1BxT0JBMVl1T2p0aTg0TXkyaEtYUQ&q=https%3A%2F%2Fsupersimple.dev%2Ffeedback&v=rRaGGJWWs0M"
+              >https://supersimple.dev/feedback</a
+            >
+          </p>
+          <p class="contact-link">
+            Instagram:
+            <a
+              href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqay1wd0tNQ3B0enVWU3RBTVJjT2xvWU5ndm9NUXxBQ3Jtc0tsQm5DdDFYaFlhZHZJYnhaTXRnRUZyVzNXM2Z2UzI0WXUxWjRQdUhWMDlvTWVtRFFzMmEtcjJEQ1ZRak1WSGUwQ0c3S2V3N2liczJLdzRIa3M4Y2IwZXRuRDhhSldLeks0SG9mR1JDeGhSZ2s1aUZYaw&q=https%3A%2F%2Fwww.instagram.com%2Fsupersimple.dev&v=rRaGGJWWs0M"
+              >https://www.instagram.com/supersimple...</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="video-previews-section">
+        <div>one, two</div>
+      </div>
     </div>
   </body>
 </html>
