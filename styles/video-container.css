@@ -1,0 +1,40 @@
+.video-section{
+  display: flex;
+  justify-content: space-between;
+}
+.youtube-video-iframe-section{
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+}
+iframe{
+ width: 640px;
+ height: 360px;
+ object-fit: cover;
+ object-position: left;
+ margin-bottom: 10px;
+}
+
+.video-tags a{
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.5rem;
+}
+.video-title{
+  font-weight: 500;
+  font-size: 20px;
+}
+.video-title, .description{
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+}
+.description span{
+  font-weight: 500;
+}
+.contact-link, .contact-link a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.5rem;
+  margin: 0;
+}
