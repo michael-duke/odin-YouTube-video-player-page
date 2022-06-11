@@ -1,5 +1,6 @@
 #related-topics{
   display: flex;
+  margin-left: 30px;
   margin-bottom: 5px;
 }
 .topic-btn{
@@ -19,11 +20,13 @@
   background-color: black
 }
 
-/* .related-topics button:hover{
+/* #related-topics button:hover{
   background-color: rgba(0, 0, 0, 0.1);
 } */
 .previews-container-grid{
   margin-left: 40px;
+  display: grid;
+  row-gap: 4px;
 }
 .video-preview-grid{
   display: grid;
@@ -41,11 +44,12 @@
   position: relative;
 }
 
-.video-title {
+.video-preview-title {
   margin-top: 0;
-  width: 270px;
+  width: 230px;
   font-weight: 500;
   font-size: 14px;
+  line-height: 21px;
   margin-bottom: 5px;
 }
 .video-author,
@@ -61,7 +65,6 @@
   position: absolute;
   top:-1px;
   right: 10px;
-  width: 28px;
   background-color: white;
   border: none;
   cursor: pointer;

@@ -23,6 +23,7 @@ iframe{
 .video-title{
   font-weight: 500;
   font-size: 20px;
+  flex: 1;
 }
 .video-title, .description{
   margin-bottom: 10px;
