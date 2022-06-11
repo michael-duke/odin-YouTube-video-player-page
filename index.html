@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="styles/general.css" />
     <link rel="stylesheet" type="text/css" href="styles/header.css" />
     <link rel="stylesheet" type="text/css" href="styles/video-container.css" />
+    <link rel="stylesheet" type="text/css" href="styles/video-preview.css" />
+    <script src="js/active-button.js"></script>
   </head>
 
   <body>
@@ -111,9 +113,52 @@
             >
           </p>
         </div>
+        <div class="video-tags">
+          <span>
+            <a href="https://www.youtube.com/hashtag/learntocode"
+              >#learntocode</a
+            ></span
+          >
+          <span
+            ><a href="https://www.youtube.com/hashtag/softwaredeveloper"
+              >#softwaredeveloper</a
+            ></span
+          >
+          <span
+            ><a href="https://www.youtube.com/hashtag/softwareengineer"
+              >#softwareengineer</a
+            ></span
+          >
+        </div>
       </div>
       <div class="video-previews-section">
-        <div>one, two</div>
+        <div class="previews-container-grid">
+          <div id="related-topics">
+            <button class="topic-btn topic-active">All</button>
+            <button class="topic-btn">Related</button>
+            <button class="topic-btn">From SuperSimpleDev</button>
+            <button class="topic-btn">Software Engineer</button>
+          </div>
+          <div class="video-preview-grid">
+            <div class="thumbnail-column">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">Marques Brownlee</p>
+              <p class="video-stats">3.4M views &middot; 6 months ago</p>
+              <button class="preview-menu-button">
+                <img
+                  class="preview-menu-icon"
+                  src="icons/three-dot-icon.png"
+                  alt="preview-menu-icon"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

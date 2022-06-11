@@ -1,6 +1,5 @@
 .video-section{
   display: flex;
-  justify-content: space-between;
 }
 .youtube-video-iframe-section{
   display: flex;
@@ -16,9 +15,9 @@ iframe{
 }
 
 .video-tags a{
+  color: #065fd4;
   text-decoration: none;
   font-size: 13px;
-  font-weight: normal;
   line-height: 1.5rem;
 }
 .video-title{
@@ -32,9 +31,19 @@ iframe{
 .description span{
   font-weight: 500;
 }
-.contact-link, .contact-link a{
+.contact-link{
+  font-size: 14px;
+  margin: 0;
+} 
+.contact-link a{
+  color: #065fd4;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.5rem;
-  margin: 0;
+} 
+.video-tags:last-child{
+  margin-top: 10px;
+}
+.video-tags:last-child span{
+  display: block;
 }
