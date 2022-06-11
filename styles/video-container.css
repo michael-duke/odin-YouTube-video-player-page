@@ -29,8 +29,13 @@ iframe{
   margin-bottom: 10px;
   line-height: 1.5rem;
 }
+.description{
+  font-size: 14px;
+}
 .description span{
+  color:black;
   font-weight: 500;
+  font-size: 14px;
 }
 .contact-link{
   font-size: 14px;

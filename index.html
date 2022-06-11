@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="styles/header.css" />
     <link rel="stylesheet" type="text/css" href="styles/video-container.css" />
     <link rel="stylesheet" type="text/css" href="styles/video-preview.css" />
+    <link rel="stylesheet" type="text/css" href="styles/comment.css" />
     <script src="js/active-button.js"></script>
   </head>
 
@@ -130,6 +131,41 @@
             ></span
           >
         </div>
+        <div class="subscribe-section">
+          <div>
+            <img
+              class="channel-picture channel-info"
+              src="channel-profile-pics/supersimpledev-channel.jpg"
+              alt=""
+            />
+            <div class="channel-info">
+              <p class="channel-author">SuperSimpleDev</p>
+              <p class="channel-subscribers">39.5K subscribers</p>
+            </div>
+          </div>
+          <button class="subscribe-button">SUBSCRIBE</button>
+        </div>
+        <div class="comment-header">
+          <div id="comments-container">
+            <div class="comment-info">
+              <p class="comment-title">Comments</p>
+              <p class="comment-count">25</p>
+            </div>
+            <div class="display-comment">
+              <img
+                class="channel-profile"
+                src="channel-profile-pics/channel1_profile"
+                alt="channel1-profile"
+              />
+              <p class="first-comment">Thanks man this was real appreciated</p>
+            </div>
+          </div>
+          <img
+            class="comment-icon"
+            src="icons/greater-than-icon.jpg"
+            alt=">icon"
+          />
+        </div>
       </div>
       <div class="video-previews-section">
         <div id="related-topics">
@@ -185,7 +221,11 @@
               <p class="video-preview-title">
                 The Harsh Reality of Being a Software Engineer
               </p>
-              <p class="video-author">Gyasi Linje</p>
+              <div class="verified-author">
+                <p class="video-author">Gyasi Linje</p>
+                <img src="icons/verified-icon.jpg" alt="verified-icon" />
+              </div>
+
               <p class="video-stats">1.2M views &middot; 7 months ago</p>
               <button class="preview-menu-button">
                 <img
@@ -201,7 +241,7 @@
               <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="" />
             </div>
             <div class="video-info">
-              <p class="video-preview-title">
+              <p class="video-preview-title" style="width: 200px;">
                 The Simplest Math Problem No One Can Solve - Collatz Conjecture
               </p>
               <p class="video-author">Veritasium</p>
@@ -242,7 +282,10 @@
               <p class="video-preview-title">
                 Stop wasting time when you're learning to code!
               </p>
-              <p class="video-author">Coder Coder</p>
+              <div class="verified-author">
+                <p class="video-author">Coder Coder</p>
+                <img src="icons/verified-icon.jpg" alt="verified-icon" />
+              </div>
               <p class="video-stats">869K views &middot; 7 months ago</p>
               <button class="preview-menu-button">
                 <img
