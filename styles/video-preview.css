@@ -40,6 +40,18 @@
   position: relative;
   margin-right: 10px;
 }
+.video-time{
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  font-family: Roboto,Arial;
+  font-size: small;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 2px;
+}
 .video-info{
   position: relative;
 }
