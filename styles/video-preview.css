@@ -1,6 +1,6 @@
 #related-topics{
   display: flex;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-bottom: 5px;
 }
 .topic-btn{
@@ -24,13 +24,13 @@
   background-color: rgba(0, 0, 0, 0.1);
 } */
 .previews-container-grid{
-  margin-left: 40px;
+  margin-left: 20px;
   display: grid;
   row-gap: 4px;
 }
 .video-preview-grid{
   display: grid;
-  grid-template-columns: 200px 1fr 1px;
+  grid-template-columns: 180px 1fr;
 }
 .thumbnail {
   width: 100%;
@@ -81,7 +81,7 @@
 .preview-menu-button{
   position: absolute;
   top:-1px;
-  right: 10px;
+  right: 15px;
   background-color: white;
   border: none;
   cursor: pointer;

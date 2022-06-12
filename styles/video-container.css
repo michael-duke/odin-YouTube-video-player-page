@@ -4,14 +4,12 @@
 .youtube-video-iframe-section{
   display: flex;
   flex-direction: column;
-  width: 640px;
+  flex: 1;
 }
-iframe{
- width: 640px;
- height: 360px;
- object-fit: cover;
- object-position: left;
- margin-bottom: 10px;
+  iframe{
+  width: 690px;
+  height: 390px;
+  margin-bottom: 10px;
 }
 
 .video-tags a{
@@ -31,6 +29,7 @@ iframe{
 }
 .description{
   font-size: 14px;
+  width: 620px;
 }
 .description span{
   color:black;
