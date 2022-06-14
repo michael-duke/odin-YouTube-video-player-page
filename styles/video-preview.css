@@ -14,6 +14,7 @@
   margin: 8px 8px 8px;
   cursor: pointer;
   transition: background-color 0.15s;
+  white-space: nowrap;
 }
 .topic-active{ 
   color: white;
@@ -46,7 +47,6 @@
   right: 5px;
   background-color: black;
   color: white;
-  font-family: Roboto,Arial;
   font-size: small;
   font-weight: 500;
   padding: 4px;
@@ -58,11 +58,16 @@
 
 .video-preview-title {
   margin-top: 0;
-  width: 230px;
+  margin-bottom: 5px;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  margin-bottom: 5px;
+  width: 80%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 .video-author,
 .video-stats {
@@ -82,11 +87,22 @@
   position: absolute;
   top:-1px;
   right: 15px;
+  display: flex;
+  justify-content: center;
   background-color: white;
   border: none;
   cursor: pointer;
+  width: 25px;
+  padding: 0;
+  margin: 0;
 }
 .preview-menu-icon{
   width: 28px;
   object-fit: cover;
+  object-position: left;
+}
+@media(min-width:500px){
+  #related-topics{
+    margin-top: 10px ;
+  }
 }

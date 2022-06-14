@@ -1,5 +1,6 @@
 .video-section{
   display: flex;
+  flex-direction: row;
 }
 .youtube-video-iframe-section{
   display: flex;
@@ -7,8 +8,8 @@
   flex: 1;
 }
   iframe{
-  width: 690px;
-  height: 390px;
+  width: 640px;
+  height: 360px;
   margin-bottom: 10px;
 }
 
@@ -29,7 +30,7 @@
 }
 .description{
   font-size: 14px;
-  width: 620px;
+  flex: 1;
 }
 .description span{
   color:black;
@@ -51,4 +52,11 @@
 }
 .video-tags:last-child span{
   display: block;
+}
+
+@media (max-width: 700px){
+  .video-section{
+    flex-direction: column;
+  }
+  
 }
