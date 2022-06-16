@@ -60,3 +60,9 @@
   }
   
 }
+@media (min-width: 1300px) and  (max-width: 1850px){
+  iframe{
+    width: 1000px;
+    height: 630px;
+  }
+}
