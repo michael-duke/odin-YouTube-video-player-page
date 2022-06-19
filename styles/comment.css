@@ -166,7 +166,7 @@
   font-weight: normal;
   font-size: 12px;
 }
-.comment-desc p{
+.comment-content{
   font-size: 14px;
   line-height: 20px;
   width: 97%;
@@ -199,4 +199,28 @@
   font-weight: 500;
   color: rgb(96, 96, 96);
   margin-right: 10px;
+}
+.preview-menu-button-c{
+  position: absolute;
+  top:-1.5px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  padding: 0;
+  margin: 0;
+}
+@media(min-width:775px) and (max-width: 1015px){
+ .subscribe-comment-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 20px;
+ }
+ .comment-header{
+  margin-bottom: auto;
+ }
 }

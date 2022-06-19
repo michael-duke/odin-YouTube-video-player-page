@@ -99,10 +99,10 @@
 .preview-menu-icon{
   width: 28px;
   object-fit: cover;
-  object-position: left;
+  object-position: right;
 }
 @media(min-width:500px){
   #related-topics{
-    margin-top: 10px ;
+    margin-top: 15px ;
   }
 }
