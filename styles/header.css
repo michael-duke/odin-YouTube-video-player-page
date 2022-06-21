@@ -85,7 +85,7 @@
 .notifications-icon-container .tooltip{
   position: absolute;
   bottom: -50px;
-  background-color: rgba(96, 96, 96, 0.9);
+  background-color: #616161;
   color: white;
   font-size: 12px;
   padding: 8px;
