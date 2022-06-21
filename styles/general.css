@@ -1,9 +1,10 @@
 body{
+  position: relative;
   margin: 0;
   padding-top: 80px;
   padding-left: 60px;
   padding-right: 24px; 
-  height: 2000px;
+  height: 1500px;
   font-family: Roboto, Arial;
   background-color: rgb(248, 248, 248);
 }
@@ -15,6 +16,13 @@ p{
 @media (max-width: 750px){
   body{
     padding: 80px 24px;
+    height: auto;
   }
   
+}
+@media (max-width: 1015px){
+  body{
+    padding: 80px 0px;
+    height: auto;
+  }
 }
