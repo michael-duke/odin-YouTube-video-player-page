@@ -69,9 +69,21 @@
     margin: auto;
   }
 }
-@media (min-width: 1300px) and  (max-width: 1850px){
+@media (min-width: 1300px) and  (max-width: 1800px){
   iframe{
     width: 1000px;
     height: 630px;
+  }
+}
+@media (min-width: 1800px){
+  iframe{
+    width: 1134px;
+    height: 638px;
+  }
+}
+@media (min-width: 2300px){
+  iframe{
+    width: 1266px;
+    height: 711px;
   }
 }

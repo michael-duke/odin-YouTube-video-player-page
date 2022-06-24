@@ -1,3 +1,6 @@
+.video-previews-section{
+  flex: 1;
+}
 #related-topics{
   display: flex;
   margin-left: 20px;
@@ -104,5 +107,10 @@
 @media(min-width:500px){
   #related-topics{
     margin-top: 15px ;
+  }
+}
+@media (max-width: 1015px){
+  .previews-container-grid{
+    margin-left: 0;
   }
 }
