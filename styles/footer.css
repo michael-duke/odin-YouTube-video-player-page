@@ -18,13 +18,14 @@ footer p{
   font-size: medium;
 }
 .fa-github {
+  width: 40px;
   margin-left: 10px;
-  color: #ddd;
+  object-fit: cover;
   font-size: 24px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.275s ease-in-out;
 }
 
 .fa-github:hover {
   /* transform: rotate(360deg) scale(1.2); */
-  transform: translateY(-10px) scale(1.2) rotate(360deg)
+  transform: translateY(-15px) scale(1.2) rotate(360deg)
 }
